@@ -11,8 +11,34 @@ Este repositorio contiene la configuración y archivos fuente del proyecto Gemin
 - `.gitignore`: Archivos y carpetas ignorados por git.
 - `user_id`: Archivo ignorado, no se sube al repositorio.
 
+## Configuración del entorno
+El archivo `.env` necesario para el funcionamiento de este proyecto se genera ejecutando el alias `secrets` (que ejecuta `$HOME/mcp-secrets/mcp-secrets.sh`). Puedes ejecutarlo desde cualquier ubicación:
+
+```bash
+secrets
+```
+
+Esto creará o actualizará el archivo `.env` en tu directorio home (`~/.env`). Este archivo será cargado automáticamente al iniciar la terminal si existe.
+
 ## Uso
-Agrega aquí instrucciones para correr o desplegar el proyecto.
+
+### Construir la imagen de Docker
+
+Desde la carpeta `gemini`, ejecuta:
+
+```bash
+docker build -t gemini-cli-tool .
+```
+
+### Levantar Gemini usando Docker (alias)
+
+Puedes iniciar Gemini directamente con el alias:
+
+```bash
+gemini
+```
+
+Este alias ejecuta el contenedor Docker `gemini-cli-tool` con las variables y volúmenes necesarios, usando la variable `GEMINI_API_KEY` definida en tu `.env`.
 
 ---
 
