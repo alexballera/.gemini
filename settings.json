@@ -2,12 +2,8 @@
   "theme": "Default",
   "mcpServers": {
     "context7": {
-      "type": "http",
-      "url": "https://mcp.context7.com/mcp",
-      "tools": [
-        "get-library-docs",
-        "resolve-library-id"
-      ]
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
     },
     "filesystem": {
       "command": "npx",
