@@ -30,5 +30,8 @@
       ]
     }
   },
-  "selectedAuthType": "gemini-api-key"
+  "selectedAuthType": "gemini-api-key",
+  "checkpointing": {
+    "enabled": true
+  }
 }
