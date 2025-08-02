@@ -2,7 +2,10 @@
   "mcpServers": {
     "context7": {
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
     },
     "filesystem": {
       "command": "npx",
@@ -26,5 +29,6 @@
         "@modelcontextprotocol/server-everything"
       ]
     }
-  }
+  },
+  "selectedAuthType": "gemini-api-key"
 }
