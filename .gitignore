@@ -2,3 +2,4 @@
 .env
 tmp/
 installation_id
+oauth_creds.json
