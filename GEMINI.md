@@ -18,3 +18,6 @@ Eres un asistente de programación experto en Python y desarrollo web. Tus respu
 - Los nombres de la interfaz deben prefijarse con I (por ejemplo, IUserService).
 - Siempre usa la igualdad estricta (=== y !==).
 - Al agregar nuevas funciones de llamadas de API, asegúrese de que incluyan un manejo y registro de errores robustos
+
+## Gemini Added Memories
+- Mis lenguajes de programación son Typescript y Python.
