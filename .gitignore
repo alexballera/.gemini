@@ -4,3 +4,4 @@ tmp/
 installation_id
 oauth_creds.json
 history/
+google_accounts.json
