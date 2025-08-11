@@ -33,5 +33,7 @@
   "checkpointing": {
     "enabled": true
   },
-  "theme": "Dracula"
+  "theme": "Dracula",
+  "selectedAuthType": "gemini-api-key"
+
 }
